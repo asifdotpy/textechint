@@ -1,0 +1,233 @@
+$border: 3px;
+$color: #1d1d46;
+$gradient-1: #15CFE8;
+$gradient-2: #031A34;
+
+
+.wrapper {
+  width: 300px;
+  background: #F5F5F5;
+  margin: 35px auto;
+  box-shadow: 0 10px 40px rgba(0,0,0,.4);
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  & img {
+    margin: -95px 0 -60px;
+    width: 100%;
+  }
+}
+
+.title {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #2A292F;
+}
+
+.desc {
+  font-size: 18x;
+  opacity: .8;
+}
+
+.cta {
+  padding: 28px 30px 10px;
+  
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.price {
+  float: left;
+  color: #FF3100;
+  font-size: 22px;
+  font-weight: 900;
+  padding-top: 2px;
+}
+
+.btn {
+  position: relative;
+  z-index: 1;
+  float: right;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: $color;
+  padding: 9px 18px;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  line-height: .95;
+  
+  &:before, &:after {
+    content: '';
+    background-image: linear-gradient(135deg, $gradient-1, $gradient-2);
+    position: absolute;
+    width: calc(100% + #{$border*2});
+    height: calc(100% + #{$border*2});
+    left: -$border;
+    top: -$border;
+    border-radius: $border * 2;
+    z-index: -2;
+    transition: all .2s ease-in-out;
+  }
+  
+  &:after {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: $border;
+  }
+  
+  &:hover {
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.4);
+    transform: scale(1.05);
+    &:before {
+      background-image: linear-gradient(200deg, $gradient-1, $gradient-2);
+    }
+    &:after {
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+  }
+  
+  &:active {
+    text-shadow: 0 3px 6px rgba(0,0,0,.7);
+    
+    &:before {
+      background-image: linear-gradient(225deg, $gradient-1, $gradient-2);
+      box-shadow: inset 0 3px 8px rgba(0,0,0,.5);
+    }
+  }
+}
+
+
+@font-face {
+	font-family: 'poller_oneregular';
+	src: url('../fonts/pollerone/pollerone-webfont.eot');
+	src: url('../fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/pollerone/pollerone-webfont.woff') format('woff'),
+		 url('../fonts/pollerone/pollerone-webfont.ttf') format('truetype'),
+		 url('../fonts/pollerone/pollerone-webfont.svg#poller_oneregular') format('svg');
+}
+@font-face {
+	font-family: 'leckerli_oneregular';
+	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot');
+	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.woff') format('woff'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
+}
+
+body {
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+p {
+	color: #252525;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+p a {
+	color: #252525;
+	text-decoration: underline;
+}
+p a:hover {
+	color: #898989;
+}
+#header {
+	margin: 0 auto;
+	padding: 4px 0 50px;
+	text-align: center;
+	width: 960px;
+}
+#header a.logo {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 340px;
+}
+#header a.logo img {
+	border: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#header ul {
+	margin: 0;
+	padding: 25px 0 0;
+}
+#header ul li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0 19px;
+}
+#header ul li a {
+	color: #252525;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header ul li a:hover, #header ul li.selected a {
+	color: #0ba39c;
+}
+
+.cta--is-1 {
+    align-items: center;
+    background-color: rgb(235, 226, 226);
+    border-radius: 100px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 0.75rem;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: 0.0625rem;
+    line-height: 0.875rem;
+    padding: 12px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color .3s linear;
+}
+.cta {
+    cursor: pointer;
+    /*display: inline-block;*/
+    font-family: var(--font-family-headings);
+    text-decoration: none;
+    width: auto;
+}
+
+
+
+
+
