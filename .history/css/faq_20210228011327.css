@@ -126,6 +126,7 @@ body {
 }
 
 body {
+    background-color: #FFF8F2;
     color: #373539;
     font-family: 'Montserrat', sans-serif;
   }
@@ -200,5 +201,4 @@ body {
       padding: 80px;
     }
   }
-
   
