@@ -213,14 +213,13 @@ h1 {
     font-size: 18px;
     font-family: inherit;
     font-weight: 300;
-	line-height: 1.4;
 }
 
 .carousel {
 	padding: 3rem;
 }
 
-/*---------------------------------------adding images in home tab-----------------------------------*/
+/*---------------------------------------adding images in home tab-----------------------------------
 
 .flex-parent {
 	display: flex;
@@ -230,7 +229,7 @@ h1 {
   }
   
   /* base css */
-  .carousel {
+  body {
 	padding: 3rem;
   }
   /*h3 {
@@ -239,26 +238,10 @@ h1 {
   }*/
   .parent {
 	background: #fff;
-	padding-left: 3rem;
-	padding-right: 3rem;
-	margin-left: 2rem;
-	margin-right: 2rem;
+	padding: 1rem
   }
   .child {
 	border: none;
-	padding: 1rem;
-	margin: auto;
-	width: 50%;
-	text-align: center;
+	padding: 1rem
   }
-
-  .child p {
-	font-size: 18px;
-	font-family: inherit;
-	font-weight: 300;
-	line-height: 1.4;
-  }
-  
-
-
   

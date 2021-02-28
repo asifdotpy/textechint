@@ -213,52 +213,8 @@ h1 {
     font-size: 18px;
     font-family: inherit;
     font-weight: 300;
-	line-height: 1.4;
 }
 
 .carousel {
-	padding: 3rem;
+	
 }
-
-/*---------------------------------------adding images in home tab-----------------------------------*/
-
-.flex-parent {
-	display: flex;
-  }
-  .flex-child {
-	flex: 1;
-  }
-  
-  /* base css */
-  .carousel {
-	padding: 3rem;
-  }
-  /*h3 {
-	margin: 1.5rem 0 .25em;
-	clear: both;
-  }*/
-  .parent {
-	background: #fff;
-	padding-left: 3rem;
-	padding-right: 3rem;
-	margin-left: 2rem;
-	margin-right: 2rem;
-  }
-  .child {
-	border: none;
-	padding: 1rem;
-	margin: auto;
-	width: 50%;
-	text-align: center;
-  }
-
-  .child p {
-	font-size: 18px;
-	font-family: inherit;
-	font-weight: 300;
-	line-height: 1.4;
-  }
-  
-
-
-  

@@ -213,7 +213,6 @@ h1 {
     font-size: 18px;
     font-family: inherit;
     font-weight: 300;
-	line-height: 1.4;
 }
 
 .carousel {
@@ -248,17 +247,7 @@ h1 {
 	border: none;
 	padding: 1rem;
 	margin: auto;
-	width: 50%;
+	width: 75%;
 	text-align: center;
   }
-
-  .child p {
-	font-size: 18px;
-	font-family: inherit;
-	font-weight: 300;
-	line-height: 1.4;
-  }
-  
-
-
   
