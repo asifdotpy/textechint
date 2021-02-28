@@ -404,20 +404,20 @@ div .intro h1 {
 	padding: 0px 50px;
 	background-color: #0ba39c;
 	text-decoration: #1a1a1a;
+	font-size: 18;
 }
 
 div .intro p {
 	margin: 10px;
 	padding: 10px;
-	font-size: 18px;
-	font-family: inherit;
-	font-weight: 300;
-	line-height: 1.4;
+	font-size: 16px;
 }
 
 div .main {
 	font-size: 15px;
 }
+
+
 
 .post-container {
     margin: 20px 20px 0 0;  
