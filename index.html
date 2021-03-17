@@ -1,103 +1,175 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tex Tech International</title>
-	<link rel="stylesheet" type="text/css" href="css/home.css">
-	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
-	<link rel="shortcut icon" href="/favicon.ico">
-	<script type="text/javascript" src="js/homeSlider.js"></script>
-</head>
-<body>
-	<div id="header">
-		<ul id="navigation">
-			<li class="selected">
-				<a href="index.html">home</a>
-			</li>
-			<li>
-				<a href="company.html">our company</a>
-			</li>
-			<li>
-				<a href="gallery.html">Our Products and services
-				</a>
-			</li>
-			<li>
-				<a href="career.html">career opportunity</a>
-			</li>
-			<li>
-				<a href="faq.html">faq</a>
-			</li>
-			<li>
-				<a href="contact.html">contact us</a>
-			</li>
-		</ul>
-	</div>
-    <div class="slider-all">
-    <div class="sub-body">
-        <div class="slider">
-            <div class="images">
-                <input type="radio" name="slide" id="img1" checked>
-                <input type="radio" name="slide" id="img2">
-                <input type="radio" name="slide" id="img3">
-                <input type="radio" name="slide" id="img4">
-                <input type="radio" name="slide" id="img5">
-    
-                <img src="./images/slide-apparel.jpg" class="m1" alt="img1">
-                <img src="./images/slide-hometextile.jpg" class="m2" alt="img2">
-                <img src="./images/slide-handicraft.jpg" class="m3" alt="img3">
-                <img src="./images/slide-leather.jpg" class="m4" alt="img4">
-                <img src="./images/slide-itsolutions.jpg" class="m5" alt="img5">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Tex Tech International</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <?php include_once("analyticstracking.php") ?>
+
+
+
+    <div class="headline">
+      <div class="logo-and-name">
+          <div class="navbar-header">
+               <img class="navbar-left" src="images/logo.png" alt="logo">
+               <p>Tex Tech International</p>
+          </div>
+          
+      </div>
+      <div id="header">
+          <ul id="navigation">
+          <li class="selected">
+              <a href="index.html">home</a>
+          </li>
+          <li>
+              <a href="company.html">our company</a>
+          </li>
+          <li>
+              <a href="gallery.html">Our Products and services
+              </a>
+          </li>
+          <li>
+              <a href="career.html">career opportunity</a>
+          </li>
+          <li>
+              <a href="faq.html">faq</a>
+          </li>
+          <li>
+              <a href="contact.html">contact us</a>
+          </li>
+          </ul>
+      </div>
+    </div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide img-fluid img-responsive" src="images/slide-apparel.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Apparel</h1>
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
             </div>
-            <div class="dots">
-                <label for="img1"></label>
-                <label for="img2"></label>
-                <label for="img3"></label>
-                <label for="img4"></label>
-                <label for="img5"></label>
-            </div>
+          </div>
         </div>
-    </div>
-    </div>
-    </div>
-    <div id="container">
-        <h1>Home</h1>
-        <p>We are a fast growing buying house company in the field of RMG, Home Textile, Leather Products, Handicraft Items in Bangladesh. As a matter of fact, we are one of the top buying houses in Bangladesh, sourcing apparels, fashion &amp; life style accessories for our buyers across the world. One of our primary responsibilities as a buying house is to assure that the product purchased and released for shipment conforms to be customer’s requirements.
-            <br><br>We have the flexibility to meet the trend in all aspects of design, quality, and other developments which are most desired by today’s fashion conscious market.
-            </p>
-    </div>
-	<div class="carousel">
-		<div class="parent flex-parent">
-			<div class="child flex-child">
-			  <img class="img-circle" src="images/header-image1.png" alt="Generic placeholder image" width="140" height="140">
-			  <h2>Our Vision</h2>
-			  <p>To become most preferred and best sourcing company in Asia by our valued clients around the globe</p>
-			</div><!-- /.col-lg-4 -->
-			<div class="child flex-child">
-			  <img class="img-circle" src="images/header-image2.png" alt="Generic placeholder image" width="140" height="140">
-			  <h2>Our Mission</h2>
-			  <p>To become a leading and best in class Buying / Sourcing house through- • Delivering quality and on time delivery. • Demonstrating highest level of professionalism and commitment. • Building solid and trustworthy partnership with World Class Brand owners.
-			  </p>
-			</div><!-- /.col-lg-4 -->
-			<div class="child flex-child">
-			  <img class="img-circle" src="images/header-image3.png" alt="Generic placeholder image" width="140" height="140">
-			  <h2>Sourcing Symphony</h2>
-			  <p>•	Vertical Integration •	Innovation and Speed •	Focus on Quality •	In- House Design Skills •	In- House Lab Facilities •	Employer of Choice •	Long Term Competitive Advantage
-		  </p>
-			</div>
-		  </div>
-	</div>
-    <div id="footer">
-		<div>
-			<p>&copy; All Right Reserved By Tex Tech International; Created By Asif Iqbal And Apu Chowdhury</p>
-			<ul>
-				<li>
-					<a href="http://freewebsitetemplates.com/go/twitter/" id="linkedin">linkedin</a>
-				</li>
-				<li>
-					<a href="https://www.facebook.com/textechint" target="_blank" id="facebook">facebook</a>
-			</ul>
-		</div>
-	</div>
-</body>
+        <div class="item">
+          <img class="second-slide img-fluid img-responsive" src="images/slide-hometextile.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Home Textile</h1>
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide img-fluid img-responsive" src="images/slide-leather.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Leather Products</h1>
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="forth-slide img-fluid img-responsive" src="images/slide-handicraft.jpg" alt="Forth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Handicrafts</h1>
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+            </div>
+          </div>
+        </div>
+        
+		
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <!-- Single column -->
+              <h1>Home</h1>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p>We are a fast growing buying house company in the field of RMG, Home Textile, Leather Products, Handicraft Items in Bangladesh. As a matter of fact, we are one of the top buying houses in Bangladesh, sourcing apparels, fashion & life style accessories for our buyers across the world. One of our primary responsibilities as a buying house is to assure that the product purchased and released for shipment conforms to be customer’s requirements.
+      <br/><br/>We have the flexibility to meet the trend in all aspects of design, quality, and other developments which are most desired by today’s fashion conscious market.
+      </p>
+                </div>
+              </div>
+              <br/></br/>
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/header-image1.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Our Vision</h2>
+          <p>To become most preferred and best sourcing company in Asia by our valued clients around the globe</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/header-image2.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Our Mission</h2>
+          <p>To become a leading and best in class Buying / Sourcing house through- • Delivering quality and on time delivery. • Demonstrating highest level of professionalism and commitment. • Building solid and trustworthy partnership with World Class Brand owners.
+          </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/header-image3.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Sourcing Symphony</h2>
+          <p>•	Vertical Integration •	Innovation and Speed •	Focus on Quality •	In- House Design Skills •	In- House Lab Facilities •	Employer of Choice •	Long Term Competitive Advantage
+</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; All Right Reserved By Tex Tech International; Created By Asif Iqbal And Apu Chowdhury</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+  </body>
 </html>
+
+
