@@ -40,3 +40,8 @@
 #header ul li a:hover, #header ul li.selected a {
 	color: #0ba39c;
 }
+
+
+.page-header h1 {
+	text-align: center;
+}
