@@ -52,7 +52,9 @@ body {
   font-weight: bold;
   color: #0ba39c;
   position: relative;
-  width: 200px;
+  width: auto;
+  padding: 7px;
+
 }
 
 
