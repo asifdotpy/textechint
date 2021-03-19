@@ -10,7 +10,7 @@ body {
 #header {
   margin: 0 auto;
   padding: 25px;
-  text-align: center;
+  text-align: left;
 }
 
 #header ul li {
@@ -38,23 +38,21 @@ body {
 
 .headline {
   position:relative;
-
+  display: flex;
 }
 
 .logo-and-name {
-  position: absolute;
-  left:100px;
-  top:10px;
+  position: relative;
+  display: block;
+  padding: 1rem;
 }
 
 .navbar-header p {
   font-size: 18px;
   font-weight: bold;
   color: #0ba39c;
-  position: absolute;
+  position: relative;
   width: 200px;
-  left: 75px;
-  top:15px;
 }
 
 
